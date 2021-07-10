@@ -1,0 +1,13 @@
+{
+  "forms": {
+    "signupForm": {
+      "name": "Sign-up Form",
+      "actions": [{ "type": "email", "to": "andrewmoo98@gmail.com" }],
+      "fields": {
+        "name": { "type": "text", "required": true },
+        "email": { "type": "email", "required": true },
+        "message": { "type": "text", "required": true }
+      }
+    }
+  }
+}
