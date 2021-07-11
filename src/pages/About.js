@@ -83,7 +83,7 @@ export default function About() {
               <p className="about__subheading">
                 Hi, I am <span>Lee Campbell Perrie</span>
               </p>
-              <h2 className="about__heading">A fat cunt artist</h2>
+              <h2 className="about__heading">A multimedia artist</h2>
               <div className="about__info">
                 <PText>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -139,15 +139,9 @@ export default function About() {
             <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
 
-              <AboutInfoItems
-                title="2010-2012"
-                items={['Fattest Cunt imaginable']}
-              />
-              <AboutInfoItems
-                title="2012-2016"
-                items={['Honestly larger than a whale ']}
-              />
-              <AboutInfoItems title="2016-" items={['The next Robbie']} />
+              <AboutInfoItems title="2010-2012" items={['Best student']} />
+              <AboutInfoItems title="2012-2016" items={['Freelance artist']} />
+              <AboutInfoItems title="2016-" items={['Gallery curator']} />
             </div>
           </div>
         </div>
