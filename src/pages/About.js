@@ -86,21 +86,26 @@ export default function About() {
               <h2 className="about__heading">A multimedia artist</h2>
               <div className="about__info">
                 <PText>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                  ultrices nisl at pulvinar suscipit. Nam vitae enim diam. Nam
-                  eget vulputate ex. In ac fringilla dolor. Vivamus a vestibulum
-                  ligula.
+                  My work explores the relationship between the Digital World
+                  and Real Life and how I can blur the boundaries between these
+                  two spaces. This is done by stitching a real-life location
+                  with a digital reconstruction of the same space. New links are
+                  made between geographic space and the infinity of digital
+                  potential.
                   <br /> <br />
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                  ultrices nisl at pulvinar suscipit. Nam vitae enim diam. Nam
-                  eget vulputate ex. In ac fringilla dolor. Vivamus a vestibulum
-                  ligula.
+                  Ever since I was young, I have been fascinated with video
+                  games and escaping to the virtual world. I often found the
+                  virtual world held more potential than real- life which made
+                  me question which one was more significant. This fuelled my
+                  thinking throughout my life, ultimately leading me to explore
+                  this subject in depth in college. Growing up in the South
+                  Dublin area, surrounded by seaside views and nature trails,
+                  these would inevitably become the focus of my work.
                   <br />
                   <br />
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                  ultrices nisl at pulvinar suscipit. Nam vitae enim diam. Nam
-                  eget vulputate ex. In ac fringilla dolor. Vivamus a vestibulum
-                  ligula.
+                  Experiences are blurred between Reality and Virtuality, and
+                  the space becomes eternal. The viewer is left to question the
+                  significance of the Digital realm.
                 </PText>
               </div>
               <Button btnText="Download CV" btnLink="#" />
@@ -114,7 +119,7 @@ export default function About() {
               <h1 className="about__info__heading">Education</h1>
 
               <AboutInfoItems
-                title="Collage"
+                title="College"
                 items={[
                   'BA (Hons) in Art from Institute of Art Design + Technology Dún Laoghaire',
                 ]}
@@ -124,24 +129,33 @@ export default function About() {
               <h1 className="about__info__heading">My Skills</h1>
 
               <AboutInfoItems
-                title="Blah"
-                items={['Stuff', 'Stuff', 'Stuff', 'Stuff']}
+                title="Video Editing"
+                items={['Premier pro', 'Davinci Resolve']}
               />
               <AboutInfoItems
-                title="Blah"
-                items={['Stuff', 'Stuff', 'Stuff']}
+                title="Practical"
+                items={['Lighting', 'Colour Grading', 'Video Recording']}
               />
               <AboutInfoItems
-                title="Blah"
-                items={['Stuff', 'Stuff', 'Stuff']}
+                title="Soft Skills"
+                items={[
+                  'Critical Thinking',
+                  'Creative Resolution',
+                  'Artistic Comprehension',
+                ]}
               />
             </div>
             <div className="about__info__item">
-              <h1 className="about__info__heading">Experiences</h1>
+              <h1 className="about__info__heading">Exhibitions</h1>
 
-              <AboutInfoItems title="2010-2012" items={['Best student']} />
-              <AboutInfoItems title="2012-2016" items={['Freelance artist']} />
-              <AboutInfoItems title="2016-" items={['Gallery curator']} />
+              <AboutInfoItems
+                title="2010-2012"
+                items={['Perceived Dimensions (IMMA, 2018)']}
+              />
+              <AboutInfoItems
+                title="2012-2016"
+                items={['High Heart (Pallas Projects / Studios, 2021)']}
+              />
             </div>
           </div>
         </div>
