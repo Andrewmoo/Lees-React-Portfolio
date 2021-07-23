@@ -153,12 +153,12 @@ export default function About() {
                 title="IMMA, 2018"
                 items={['Perceived Dimensions ']}
               />
-              <Link to="https://iadt.pallasprojects.org/artists/lee-campbell-pierre">
+              <a href="https://iadt.pallasprojects.org/artists/lee-campbell-pierre">
                 <AboutInfoItems
-                  title="Pallas Projects / Studios, 2021"
+                  title="Pallas Projects, 2021"
                   items={['High Heart']}
                 />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
