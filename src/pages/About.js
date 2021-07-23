@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
 import Button from '../components/Button';
-import AboutImg from '../assets/images/about-page-img.png';
+import AboutImg from '../assets/images/LeeAbout.jpg';
 import AboutInfoItems from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
 
@@ -152,11 +152,12 @@ export default function About() {
                 title="IMMA, 2018"
                 items={['Perceived Dimensions ']}
               />
-              <a href="https://iadt.pallasprojects.org/artists/lee-campbell-pierre">
-                <AboutInfoItems
-                  title="Pallas Projects, 2021"
-                  items={['High Heart']}
-                />
+              <a
+                href="https://iadt.pallasprojects.org/artists/lee-campbell-pierre"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AboutInfoItems title="Pallas, 2021" items={['High Heart']} />
               </a>
             </div>
           </div>

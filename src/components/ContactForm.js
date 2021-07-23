@@ -76,7 +76,7 @@ export default function ContactForm() {
   };
   return (
     <div>
-      <h1>Contact Us</h1>
+      <h1>Contact Me</h1>
       <FormStyle onSubmit={handleOnSubmit}>
         <label htmlFor="name">
           Name:
