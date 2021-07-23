@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 import PText from '../components/PText';
 import Button from '../components/Button';
 import AboutImg from '../assets/images/about-page-img.png';
