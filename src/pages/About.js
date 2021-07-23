@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import PText from '../components/PText';
 import Button from '../components/Button';
 import AboutImg from '../assets/images/about-page-img.png';
@@ -149,13 +150,15 @@ export default function About() {
               <h1 className="about__info__heading">Exhibitions</h1>
 
               <AboutInfoItems
-                title="2010-2012"
-                items={['Perceived Dimensions (IMMA, 2018)']}
+                title="IMMA, 2018"
+                items={['Perceived Dimensions ']}
               />
-              <AboutInfoItems
-                title="2012-2016"
-                items={['High Heart (Pallas Projects / Studios, 2021)']}
-              />
+              <Link to="https://iadt.pallasprojects.org/artists/lee-campbell-pierre">
+                <AboutInfoItems
+                  title="Pallas Projects / Studios, 2021"
+                  items={['High Heart']}
+                />
+              </Link>
             </div>
           </div>
         </div>
